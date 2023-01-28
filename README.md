@@ -1,7 +1,7 @@
 # API Reference
 ## Food search
 
-Hosting link: [TODO](https://todo.link)
+Hosting link: [https://ishsonp5.github.io/recipe-lookup-js/](https://ishsonp5.github.io/recipe-lookup-js/)
 
 Free text food search driven by the API[https://www.themealdb.com/] (https://www.themealdb.com/)
 
