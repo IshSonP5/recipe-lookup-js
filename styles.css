@@ -13,4 +13,49 @@ body {
   margin: 1rem;
   background-color: black;
   color: whitesmoke;
+  font-family: "Roboto";
+}
+
+.main-title {
+  margin: 1rem;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+/******form*****/
+
+.food-form {
+  display: flex;
+  align-items: center;
+}
+
+.input-label {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.text-input {
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.food-submit {
+  padding: 0.25rem;
+  font-size: 1.25rem;
+  color: whitesmoke;
+  background-color: rgb(78, 76, 76);
+  cursor: pointer;
+}
+
+.food-submit:hover {
 }

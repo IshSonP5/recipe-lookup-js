@@ -8,7 +8,16 @@
     <title>Recipe Lookup</title>
   </head>
   <body>
-    <h1>Recipe Lookup</h1>
-    <script src="/food-lookup.js"></script>
+    <div class="wrapper">
+      <h1 class="main-title">Recipe Lookup</h1>
+      <form action="#" method="GET" class="food-form">
+        <label class="input-label">
+          Food:
+          <input type="text" class="text-input" name="food-search-input" />
+        </label>
+        <button type="submit" class="food-submit">Search</button>
+      </form>
+      <script src="/food-lookup.js"></script>
+    </div>
   </body>
 </html>

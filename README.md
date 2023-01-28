@@ -22,3 +22,8 @@ so that I can estimate costs of my next recipe.
 
 ```
 
+## Used Resources
+
+-[]()
+-[]()
+-[]()
