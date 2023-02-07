@@ -3,7 +3,7 @@
 
 Hosting link: [https://ishsonp5.github.io/recipe-lookup-js/](https://ishsonp5.github.io/recipe-lookup-js/)
 
-Free text food search driven by the API[https://www.themealdb.com/] (https://www.themealdb.com/)
+Free text food search driven by the API[https://www.themealdb.com/api/json/v1/1/search.php?s=Pie] (https://www.themealdb.com/api/json/v1/1/search.php?s=Pie)
 
 ## User stories
 
@@ -22,8 +22,11 @@ so that I can estimate costs of my next recipe.
 
 ```
 
-## Used Resources
+## Referance and Used Resources
 
 -[]()
 -[]()
 -[]()
+
+- We consider the API response of (https://www.themealdb.com/) to be safe on displaying the content using innerHTML. Reasonable XSS (cross site scripting) protection was still added
+to the code.

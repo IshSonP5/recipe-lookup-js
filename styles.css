@@ -16,19 +16,23 @@ body {
   font-family: "Roboto";
 }
 
-.main-title {
-  margin: 1rem;
-  display: inline-block;
-  text-align: center;
-  letter-spacing: 2px;
+a,
+a:visited {
+  color: lightgreen;
 }
 
-.js-food-container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
+a:hover {
+  color: lightgreen;
+}
+
+a:active {
+  color: lightgoldenrodyellow;
+}
+
+.main-title {
+  margin: 1rem;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 /******form*****/
@@ -36,6 +40,7 @@ body {
 .food-form {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .input-label {
@@ -51,7 +56,7 @@ body {
   font-size: 1.25rem;
 }
 
-.food-submit {
+.search-button {
   padding: 0.25rem;
   font-size: 1.25rem;
   color: whitesmoke;
@@ -59,5 +64,29 @@ body {
   cursor: pointer;
 }
 
-.food-submit:hover {
+.search-button:hover {
+  color: aquamarine;
+}
+
+/* **************** Meal result styles ***************** */
+
+.meal-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meal-container {
+  margin: 1rem;
+  border: 5px inset whitesmoke;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 45%;
+}
+
+.meal-thumbnail {
+  height: 150px;
+  border-radius: 50%;
+  border: 4px ridge deepskyblue;
 }
